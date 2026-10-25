@@ -1,0 +1,15 @@
+{
+  "name": "creator-commerce-rerank-typescript",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-strip-types src/rerank_decision.test.ts",
+    "example": "node --experimental-strip-types src/run_example.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  }
+}
